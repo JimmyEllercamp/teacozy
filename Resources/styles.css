@@ -17,6 +17,8 @@ header {
     width: 100%;
     position: fixed;
     z-index: 1;
+    margin-top: 0;
+    top: 0;
 }
 
 .logo {
@@ -47,17 +49,21 @@ body {
   opacity: 0.9;
 }
 
+main {
+  margin-top: 4%;
+}
+
 .mission {
   display: flex;
   flex-direction: column;
   height: 700px;
   width: 93%;
   background-image: url(./Skins/img-mission-background.webp);
-  background-position:center;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
-  margin: 0% auto;
+  margin: 0 auto;
 }
 
 h2 {
