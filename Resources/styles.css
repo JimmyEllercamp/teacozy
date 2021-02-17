@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
     background-color: black;
-    opacity: 0.9;
+    /* opacity: 0.9; */
     font-family: Helvetica, sans-serif;
     font-size: 22px;
     color: seashell;
@@ -38,10 +38,15 @@ ul li {
     justify-content: flex-end;
 }
 
+body {
+  opacity: 0.9;
+}
+
 .mission {
   display: flex;
+  flex-direction: column;
   height: 700px;
-  width: 1200px;
+  width: 93%;
   background-image: url(./Skins/img-mission-background.webp);
   background-position:center;
   background-repeat: no-repeat;
@@ -51,16 +56,28 @@ ul li {
 }
 
 h2 {
-    font-size: 2rem;
-    background-color: black;
+    font-size: 1.6rem;
+    padding: 0;
+    margin-bottom: 0;
+    margin-top: 1%;
+  }
+
+  h4 {
+      padding: 0;
+      margin-top: 20px;
+      margin-bottom: 1%;
   }
   
-  .statement {
+ div .statement {
     background-color: black;
     justify-content: center;
-    height: 60px;
-    margin: 0 auto;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    height: max-content;
+    width: 100%;
+    margin-top: 20%;
   }
 
 .feature {
