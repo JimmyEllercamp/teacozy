@@ -81,7 +81,27 @@ h2 {
   }
 
 .feature {
+display: flex;
+flex-direction: column;
+width: 1000px;
+margin: 5% auto;
+}
 
+.tea-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.tea-box {
+    padding: 10px;
+    flex: 1 1 300px;
+}
+
+.tea-box img {
+    width: 300px;
+    height: 200px;
 }
 
 .location {
