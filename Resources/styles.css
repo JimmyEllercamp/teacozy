@@ -5,27 +5,39 @@
     font-family: Helvetica, sans-serif;
     font-size: 22px;
     color: seashell;
+    text-align: center;
+}
 
+h2 {
+  font-size: 2rem;
+}
+
+.statement {
+  background-color: black;
+  margin: 0;
 }
 
 header {
     display: inline-flex;
-    /* height: 69px; */
+    height: 69px;
     border-bottom: 1px solid seashell;
     width: 100%;
     margin: 0;
 }
-image .logo {
-  height: 30px;
-  width: 50%;
+.logo {
+  height: 50px;
+  width: auto;
   padding-left: 10px;
   justify-content: flex-start;
+  align-items: center;
+  margin: 10px;
 }
 
-ul {
-    display: flex;
+.nav ul {
+    display: inline-flex;
     list-style: none;
-    width: 50%;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 ul li {
