@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    background-color: black;
+    opacity: 0.9;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+
+}
+
+header {
+    display: inline-flex;
+    /* height: 69px; */
+    border-bottom: 1px solid seashell;
+    width: 100%;
+    margin: 0;
+}
+image .logo {
+  height: 30px;
+  width: 50%;
+  padding-left: 10px;
+  justify-content: flex-start;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    width: 50%;
+}
+
+ul li {
+    padding: 0 2rem;
+    text-decoration: underline;
+    justify-content: flex-end;
+}
+
+.mission {
+  height: 700px;
+  width: 1200px;
+  background-image: url(./Skins/img-mission-background.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.feature {
+
+}
+
+.location {
+
+}
+
+footer {
+
+}
