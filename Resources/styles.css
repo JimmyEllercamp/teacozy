@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
     background-color: black;
-    /* opacity: 0.9; */
+    opacity: 0.95;
     font-family: Helvetica, sans-serif;
     font-size: 22px;
     color: seashell;
@@ -50,7 +50,7 @@ body {
 }
 
 main {
-  margin-top: 4%;
+  margin-top: 4.5%;
 }
 
 .mission {
@@ -116,7 +116,9 @@ margin: 5% auto;
 }
 
 .location {
-
+  height: 500px;
+  width: 93%;
+  margin: 0 auto;
 }
 
 footer {
