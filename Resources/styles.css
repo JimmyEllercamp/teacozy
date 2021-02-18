@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
     background-color: black;
-    opacity: 0.95;
+    opacity: 0.9;
     font-family: Helvetica, sans-serif;
     font-size: 22px;
     color: seashell;
@@ -121,10 +121,10 @@ margin: 5% auto;
   width: 93%;
   margin: 0 auto;
   background-image: url('./Images/img-locations-background.webp');
-  background-position: center;
+  background-position: 0% 30%;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 5px;
+  padding-top: 10px;
 }
 
 .location-header  {
@@ -136,21 +136,26 @@ margin: 5% auto;
 .location-boxes {
   display: inline-flex;
   justify-content: center;
+  background: none;
 }
 
 div .location-box {
-  flex-basis: 300px
+  min-width: 280px;
+  flex-basis: 300px;
+  height: auto;
   flex-grow: 1;
+  padding: 20px;
   margin: 15px 40px;
-  padding-top: 10px;
-  padding-right: 40px;
+  background-color: black;
+  opacity: 1;
 }
 
-.location-box .middle {
-  margin-left: 40px;
-  margin-right: 40px;
+.contact {
+  height: 200px;
 }
 
-footer {
-
+footer p{
+  text-align: left;
+  padding-left: 20px;
+  padding-bottom: 30px;
 }
