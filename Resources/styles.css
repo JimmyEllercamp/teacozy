@@ -1,0 +1,83 @@
+body {
+    background-color: black;
+    opacity: .95;
+    color: seashell;
+    font-size: 22px;
+    font-family: helvetica;
+    text-align: center;
+}
+
+header{
+    height: 69px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    align-items: center;
+}
+
+h2 {
+    font-size: 1.8rem;
+    padding-top: 0;
+}
+
+h4 {
+    font-size: 1.3rem;
+}
+
+.header-wrapper {
+    border-bottom: 1px solid seashell;
+    display: inline-flex;
+    width: 100%;
+    align-items: center;
+}
+
+.header-wrapper .logo {
+    width: 50%;   
+}
+
+#logo {
+    width: 22.5%;
+    justify-content: flex-start;
+    float: left;
+    align-items: center;
+    padding-left: 2%;
+}
+
+.header-wrapper .nav {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 1%;
+}
+
+.nav li {
+    list-style: none;
+    display: inline-flex;
+    color: seashell;
+    text-decoration: underline;
+}
+
+.mission {
+    background-image: url('./Skins/img-mission-background.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+    top: 69px;
+}
+
+.mission-content {
+    background-color:black;
+    width: 100%;
+}
+
+.mission-content h2, h4{
+    padding: .7%;
+    border: 0;
+    margin: 0;
+}
