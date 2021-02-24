@@ -10,6 +10,7 @@ body {
     font-family: helvetica;
     text-align: center;
     margin: 0;
+    opacity: .9;
 }
 
 header{
@@ -26,12 +27,16 @@ main {
 }
 
 h2 {
-    font-size: 1.8rem;
+    font-size: 2rem;
     padding-top: 0;
 }
 
 h4 {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
+}
+
+a {
+    color: seashell;
 }
 
 .header-wrapper {
@@ -97,5 +102,28 @@ h4 {
 /*   Featured Section   */
 
 .featured {
-    
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 }
+
+.featured-tea {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img-container {
+    width: 30%;
+    padding: 2%;
+}
+
+img {
+    max-width: 100%;
+}
+
+figcaption {
+    padding-top: 2%;
+}
+
